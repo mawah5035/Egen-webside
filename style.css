@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(250, 212, 218);
+}
+h1 {
+  color: rgb(30, 125, 169);
+  text-align: center;
+}
+/*jeg prøver å sette inn en kommentar her*/
+h2, li,p {/*setter inn farge og hvor den skal ligge*/
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+
+<li class="ridge">A ridge border.</li>
