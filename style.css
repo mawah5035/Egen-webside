@@ -1,15 +1,25 @@
 body {
-  background-color: rgb(225, 220, 228);
-}
-h1 {
-  color: rgb(30, 125, 169);
-  text-align: center;
-}
-/*jeg prøver å sette inn en kommentar her*/
-h2, li,p {/*setter inn farge og hvor den skal ligge*/
-  color: rgb(0, 0, 0);
-  text-align: center;
-
+  background: url("clouds.png"), linear-gradient(to bottom, #ffd6eb, #ffe6f7, #e6f2ff);
+  background-repeat: repeat-x; /* Gjør at skyer går bortover */
+  background-position: top;
+  background-size: contain;
 }
 
-<li class="ridge">A ridge border.</li>
+nav {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #414a54;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1165c0;
+}
