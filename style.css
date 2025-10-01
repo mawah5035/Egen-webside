@@ -1,8 +1,12 @@
 body {
-  background: url("clouds.png"), linear-gradient(to bottom, #ffd6eb, #ffe6f7, #e6f2ff);
-  background-repeat: repeat-x; /* Gjør at skyer går bortover */
-  background-position: top;
-  background-size: contain;
+  {
+  background-image: url(https://wallpaperaccess.com/full/1271689.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  height: 100vh;
+  margin: 0;
+}
 }
 
 nav {
